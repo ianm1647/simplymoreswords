@@ -1,0 +1,23 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "mythicupgrades"
+      ]
+    }
+  ],
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "simplyswords:netherite_greataxe"
+  },
+  "addition": {
+    "item": "mythicupgrades:sapphire_ingot"
+  },
+  "result": {
+    "item": "simplymoreswords:mythicupgrades/sapphire/greataxe"
+  },
+  "template": {
+    "item": "mythicupgrades:sapphire_upgrade_smithing_template"
+  }
+}

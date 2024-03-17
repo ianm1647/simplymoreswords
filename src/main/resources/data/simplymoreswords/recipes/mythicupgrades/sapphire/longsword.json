@@ -1,0 +1,23 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "mythicupgrades"
+      ]
+    }
+  ],
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "simplyswords:netherite_longsword"
+  },
+  "addition": {
+    "item": "mythicupgrades:sapphire_ingot"
+  },
+  "result": {
+    "item": "simplymoreswords:mythicupgrades/sapphire/longsword"
+  },
+  "template": {
+    "item": "mythicupgrades:sapphire_upgrade_smithing_template"
+  }
+}

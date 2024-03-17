@@ -1,0 +1,23 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "mythicupgrades"
+      ]
+    }
+  ],
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "simplyswords:netherite_claymore"
+  },
+  "addition": {
+    "item": "mythicupgrades:aquamarine_ingot"
+  },
+  "result": {
+    "item": "simplymoreswords:mythicupgrades/aquamarine/claymore"
+  },
+  "template": {
+    "item": "mythicupgrades:aquamarine_upgrade_smithing_template"
+  }
+}

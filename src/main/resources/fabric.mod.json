@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "simplymoreswords",
+	"version": "${version}",
+	"name": "Simply More Swords",
+	"description": "Adds more support for materials for SimplySwords weapons!",
+	"authors": [
+		"ianm1647"
+	],
+	"icon": "assets/simplymoreswords/logo.png",
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "com.ianm1647.simplymoreswords.SimplyMoreSwords",
+			"com.ianm1647.simplymoreswords.SimplyMoreSwordsConfig"
+		],
+		"client": [
+			"com.ianm1647.simplymoreswords.SimplyMoreSwordsClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.15.0",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*",
+		"simplyswords": "*"
+	}
+}

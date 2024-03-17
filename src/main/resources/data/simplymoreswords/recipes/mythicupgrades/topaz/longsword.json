@@ -1,0 +1,23 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "mythicupgrades"
+      ]
+    }
+  ],
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "simplyswords:netherite_longsword"
+  },
+  "addition": {
+    "item": "mythicupgrades:topaz_ingot"
+  },
+  "result": {
+    "item": "simplymoreswords:mythicupgrades/topaz/longsword"
+  },
+  "template": {
+    "item": "mythicupgrades:topaz_upgrade_smithing_template"
+  }
+}
